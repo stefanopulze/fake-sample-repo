@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    # inputs:
+      # email:
+        # default: 'unknown@example.com' # used to mark ownership of the run from strapi
 
 jobs:
   deploy:
